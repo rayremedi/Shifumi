@@ -91,6 +91,7 @@ function resul() {
         OrdiScor.innerHTML++;
 
 
+
     }
     // Ordi Papier vs User Ciseau 
     else if (Ordi === 1 && Vous === 2) {
@@ -101,6 +102,7 @@ function resul() {
         console.log(vousScor);
 
 
+
     }
     // Ordi Ciseau vs User Papier
     else if (Ordi === 2 && Vous === 1) {
@@ -108,6 +110,8 @@ function resul() {
 
         Res.innerHTML = "Perdu";
         OrdiScor.innerHTML++;
+
+
 
     }
     // Ordi Ciseau vs User Pierre
@@ -118,6 +122,8 @@ function resul() {
         vousScor.innerHTML++;
         console.log(vousScor);
 
+
+
     }
     // Ordi Pierre vs User Ciseau
 
@@ -127,12 +133,14 @@ function resul() {
         Res.innerHTML = "Perdu";
         OrdiScor.innerHTML++;
 
+
     }
 
     else {
         vousScor = 0;
 
         Res.innerHTML = "Egalité";
+
 
 
     }
