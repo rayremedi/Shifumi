@@ -1,0 +1,103 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Concert One", cursive;
+}
+
+#Shifumi {
+  height: 130vh;
+  background-color: #f8a5c2;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#Shifumi h1 {
+  text-align: center;
+  font-size: 10em;
+}
+
+.RPC-hands {
+  margin-top: 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.RPC-hands img {
+  height: 15%;
+  width: 15%;
+}
+
+#RPC-container {
+  position: relative;
+  background-color: #63cdda;
+  border: 8px dashed yellow;
+  margin-top: 5%;
+  padding: 0 0 0 10%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 58vh;
+}
+
+#RPC-container .RPC-vous {
+  padding-top: 5%;
+  height: 400px;
+  width: 15%;
+}
+
+#RPC-container .RPC-vous .Vs-img {
+  margin-top: 10%;
+}
+
+#RPC-container .RPC-vous img {
+  height: 15%;
+  width: 100%;
+}
+
+#RPC-container .RPC-vous p {
+  color: yellow;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+}
+
+#RPC-container .RPC-adversaire {
+  padding-top: 5%;
+  margin: 0 0 0 48%;
+  height: 400px;
+  width: 15%;
+}
+
+#RPC-container .RPC-adversaire .Vs-img2 {
+  margin-top: 10%;
+}
+
+#RPC-container .RPC-adversaire img {
+  height: 15%;
+  width: 100%;
+}
+
+#RPC-container .RPC-adversaire p {
+  color: yellow;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+}
+
+#RPC-container #resultat {
+  height: 16vh;
+  position: absolute;
+  margin: 15% 0 0 40%;
+  font-size: 10em;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+/*# sourceMappingURL=style.css.map */
