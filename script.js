@@ -81,6 +81,7 @@ function resul() {
 
         Res.innerHTML = "Victoire";
         vousScor.innerHTML++;
+        return;
         console.log(vousScor);
 
 
@@ -89,6 +90,7 @@ function resul() {
 
         Res.innerHTML = "Perdu";
         OrdiScor.innerHTML++;
+        return;
 
 
 
@@ -99,6 +101,7 @@ function resul() {
 
         Res.innerHTML = "Victoire";
         vousScor.innerHTML++;
+        return;
         console.log(vousScor);
 
 
@@ -110,6 +113,7 @@ function resul() {
 
         Res.innerHTML = "Perdu";
         OrdiScor.innerHTML++;
+        return;
 
 
 
@@ -120,6 +124,7 @@ function resul() {
 
         Res.innerHTML = "Victoire";
         vousScor.innerHTML++;
+        return;
         console.log(vousScor);
 
 
@@ -132,14 +137,16 @@ function resul() {
 
         Res.innerHTML = "Perdu";
         OrdiScor.innerHTML++;
+        return;
 
 
     }
 
     else {
-        vousScor = 0;
+
 
         Res.innerHTML = "Egalité";
+        return;
 
 
 
